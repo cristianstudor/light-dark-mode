@@ -1,8 +1,7 @@
 const toggleSwitch = document.querySelector('input[type="checkbox"]');
 
-function getElementById(id) {
-  return document.getElementById(id);
-}
+const getElementById = (id) => document.getElementById(id);
+
 const nav = getElementById("nav");
 const toggleIcon = getElementById("toggle-icon");
 const image1 = getElementById("image1");
